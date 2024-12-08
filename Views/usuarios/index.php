@@ -73,12 +73,14 @@
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content border-0 shadow-lg">
             <!-- Modal Header -->
-            <div class="modal-header bg-primary text-white">
-                <h5 class="modal-title" id="permisos-title">
-                    <i class="fas fa-user-shield"></i> Asignar Permisos
+            <div class="modal-header border-0 shadow-sm" style="background: linear-gradient(90deg, #F58217FF, #FAB78AFF); color: #fff;">
+                <h5 class="modal-title d-flex align-items-center" id="permisos-title">
+                <i class="fas fa-user-shield me-2" style="font-size: 1.5rem;"></i> 
+                <span>Asignar Permisos</span>
                 </h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+
             <!-- Modal Body -->
             <div class="modal-body bg-light">
                 <form id="frmPermisos">
