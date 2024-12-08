@@ -1,51 +1,84 @@
-# Covinware
-CovinWare - Sistema de Control de Ventas e Inventario
-CovinWare es una solución integral para gestionar ventas e inventarios de manera eficiente. Este sistema está diseñado para pequeñas y medianas empresas que buscan automatizar sus procesos, mejorar su organización y obtener reportes claros sobre las operaciones diarias.
+# CovinWare
 
-Características
-Login Seguro: Acceso al sistema mediante usuario y contraseña.
-Módulo de Administración: Gestión de usuarios y configuración de la empresa.
-Gestión de Clientes y Proveedores: Registro y edición de información.
-Módulo de Productos y Categorías: Control centralizado de inventarios.
-Entradas: Registro de compras y visualización de historial.
-Ventas: Generación de nuevas ventas con facturas detalladas y gestión de historial.
-Reportes: Exportación de datos a Excel y PDF.
-Requisitos del Sistema
-Servidor Web: XAMPP, WAMP o similar con soporte para PHP.
-Base de Datos: MySQL.
-PHP: Versión 7.4 o superior.
-Navegador Moderno: Chrome, Firefox, Edge, entre otros.
-Instalación
-Clona el repositorio:
-bash
-Copiar código
-git clone https://github.com/JoseVasqueZ01/Covinware.git
-Copia los archivos a la carpeta raíz de tu servidor local (por ejemplo, htdocs en XAMPP).
-Importa la base de datos:
-Ubica el archivo .sql incluido en el repositorio.
-Usa phpMyAdmin para importar la base de datos.
-Configura la conexión a la base de datos:
-Abre el archivo config.php en el directorio principal.
-Ajusta los parámetros (host, usuario, contraseña, nombre_base_datos) según tu configuración.
-Accede al sistema desde tu navegador:
-URL: http://localhost/covinware.
-Uso del Sistema
-Inicia sesión con las credenciales asignadas por el administrador.
-Navega por los módulos según las necesidades:
-Administración: Crear, editar y eliminar usuarios. Configurar la información de la empresa.
-Clientes y Proveedores: Añade nuevos registros o actualiza los existentes.
-Productos y Categorías: Gestiona el inventario con facilidad.
-Entradas y Ventas: Registra compras y ventas, genera facturas, y consulta el historial.
-Exporta reportes en formato Excel o PDF según tus necesidades.
-Capturas de Pantalla
-(Incluye imágenes del sistema, como el login, la pantalla principal, y los módulos más importantes).
+CovinWare es un sistema de control de ventas e inventario diseñado para facilitar la gestión de tiendas y negocios. Incluye funcionalidades como administración de usuarios, gestión de clientes, proveedores, productos, entradas y ventas, todo en una interfaz intuitiva y eficiente.
 
-Licencia
-Este proyecto está bajo la licencia MIT. Puedes usar, modificar y distribuir el código según los términos establecidos.
+---
 
-Contacto
-Para dudas, soporte o sugerencias, contáctanos en:
-Correo: javasquez747@gmail.com
-Wp:3135260646
-GitHub: https://github.com/JoseVasqueZ01
+## 🚀 Características principales
+
+- **Login seguro**: Validación de usuario y contraseña con acceso restringido según permisos asignados.
+- **Módulo de Administración**: Creación y gestión de usuarios con asignación de permisos específicos.
+- **Gestión de Clientes y Proveedores**: Registro, edición y eliminación de datos con listados detallados.
+- **Control de Categorías y Productos**: Registro y visualización de productos con categorización.
+- **Módulo de Compras**: Registro de entradas de inventario, historial de compras y exportación de informes.
+- **Módulo de Ventas**: Generación de ventas, historial y reimpresión de facturas.
+- **Reportes dinámicos**: Exportación de datos en formatos Excel, PDF e impresión directa.
+
+---
+
+## 📂 Estructura del proyecto
+
+CovinWare/ ├── Assets/ # Archivos estáticos (CSS, JS, imágenes, etc.) │ ├── css/ # Hojas de estilo personalizadas │ ├── img/ # Imágenes y logotipos │ ├── js/ # Scripts del sistema ├── Controllers/ # Controladores para la lógica del sistema ├── Libraries/ # Librerías externas (FPDF, utilidades, etc.) ├── Models/ # Modelos de datos y consultas SQL ├── Views/ # Vistas del sistema (HTML, PHP) ├── index.php # Archivo principal └── README.md # Documentación del proyecto
+
+
+---
+
+## ⚙️ Requisitos del sistema
+
+- **Servidor web**: Apache o Nginx.
+- **PHP**: Versión 7.4 o superior.
+- **Base de datos**: MySQL 5.7 o superior.
+- **Herramientas adicionales**:
+  - Composer para gestionar dependencias (opcional).
+
+---
+
+## 🔧 Instalación
+
+1. **Clona el repositorio**:
+   ```bash
+   git clone [https://github.com/JoseVasqueZ01/Covinware.git]
+   cd covinware
+
+---
+
+##🖥️ Capturas de pantalla
+
+![Captura de pantalla 2024-12-05 165114](https://github.com/user-attachments/assets/4bccf388-b810-4682-a4da-c2094a8fbb0c)
+
+![Captura de pantalla 2024-12-05 165157](https://github.com/user-attachments/assets/e256047a-4da3-4d5d-808e-26657904bbf7)
+
+---
+
+## ✍️ Autor
+
+**José Anires Vásquez Monsalve**  
+Estudiante de Análisis y Desarrollo de Software  
+[LinkedIn](https://www.linkedin.com/in/josevasquezmonsalve/) | [GitHub](https://github.com/JoseVasqueZ01)
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap.  
+- **Backend**: PHP con arquitectura MVC.  
+- **Base de datos**: MySQL.  
+- **Librerías**:  
+  - FPDF para generación de reportes en PDF.  
+  - SweetAlert2 para alertas interactivas.  
+  - DataTables para manejo de tablas dinámicas.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la [MIT License](LICENSE).
+
+---
+## 📩 Contacto
+
+¿Tienes preguntas o sugerencias? ¡No dudes en contactarme!  
+**Correo:** [javasquez747@gmail.com](mailto:javasquez747@gmail.com)
+
+
 
