@@ -6,7 +6,7 @@
 <footer class="main-footer bg-dark text-white py-3 mt-auto">
     <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
         <div>
-            <span>&copy; 2024 CovinWare. Reservados todos los derechos.</span>
+            <span>&copy; 2025 CovinWare. Reservados todos los derechos.</span>
         </div>
         <div>
             <a href="#" class="text-white me-3 text-decoration-none">política de privacidad |</a>
