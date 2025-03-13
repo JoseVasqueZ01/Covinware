@@ -2,31 +2,16 @@
 <div class="row">
     <div class="col-lg-3 col-6">
         <!-- small box -->
-        <div class="small-box">
+        <div class="small-box" >
             <div class="inner">
                 <h3><?php echo $data['clientes']['clientes']; ?></h3>
 
                 <p>Clientes</p>
             </div>
             <div class="icon">
-                <i class="ion fas fa-users text-gray"></i>
+                <i class="ion fas fa-users text-gray" ></i>
             </div>
-            <a href="<?php echo base_url; ?>clientes" class="small-box-footer bg-info">Ver <i class="fas fa-arrow-circle-right"></i></a>
-        </div>
-    </div>
-    <!-- ./col -->
-    <div class="col-lg-3 col-6">
-        <!-- small box -->
-        <div class="small-box">
-            <div class="inner">
-                <h3><?php echo $data['productos']['productos']; ?></h3>
-
-                <p>Productos</p>
-            </div>
-            <div class="icon">
-                <i class="ion fab fa-product-hunt text-gray"></i>
-            </div>
-            <a href="<?php echo base_url; ?>productos" class="small-box-footer bg-success">Ver <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="<?php echo base_url; ?>clientes"  class="small-box-footer bg-orange" >Ver <i class="fas fa-arrow-circle-right" ></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -41,7 +26,53 @@
             <div class="icon">
                 <i class="ion fas fa-user text-gray"></i>
             </div>
-            <a href="<?php echo base_url; ?>usuarios" class="small-box-footer bg-warning">Ver <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="<?php echo base_url; ?>usuarios" class="small-box-footer bg-orange">Ver <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-6">
+        <!-- small box -->
+        <div class="small-box">
+            <div class="inner">
+                <h3><?php echo $data['productos']['productos']; ?></h3>
+
+                <p>Productos</p>
+            </div>
+            <div class="icon">
+                <i class="ion fab fa-product-hunt text-gray"></i>
+            </div>
+            <a href="<?php echo base_url; ?>productos" class="small-box-footer bg-blue">Ver <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-6">
+        <!-- small box -->
+        <div class="small-box">
+            <div class="inner">
+                <h3><?php echo $data['proveedor']['proveedor']; ?></h3>
+
+                <p>Proveedores</p>
+            </div>
+            <div class="icon">
+                <i class="ion fas fa-hospital text-gray"></i>
+            </div>
+            <a href="<?php echo base_url; ?>proveedor" class="small-box-footer bg-blue">Ver <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div> 
+    <!-- ./col -->
+    
+    <div class="col-lg-3 col-6">
+        <!-- small box -->
+        <div class="small-box">
+            <div class="inner">
+                <h3><br></h3>
+
+                <p>Nueva Venta</p>
+            </div>
+            <div class="icon">
+                <i class="ion fas fa-store-alt text-gray"></i>
+            </div>
+            <a href="<?php echo base_url; ?>compras/ventas" class="small-box-footer bg-success">Ver <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -56,50 +87,7 @@
             <div class="icon">
                 <i class="ion fas fa-cash-register text-gray"></i>
             </div>
-            <a href="<?php echo base_url; ?>compras/historial_ventas" class="small-box-footer bg-danger">Ver <i class="fas fa-arrow-circle-right"></i></a>
-        </div>
-    </div>
-    <div class="col-lg-3 col-6">
-        <!-- small box -->
-        <div class="small-box">
-            <div class="inner">
-                <h3><?php echo $data['proveedor']['proveedor']; ?></h3>
-
-                <p>Proveedores</p>
-            </div>
-            <div class="icon">
-                <i class="ion fas fa-hospital text-gray"></i>
-            </div>
-            <a href="<?php echo base_url; ?>proveedor" class="small-box-footer bg-orange">Ver <i class="fas fa-arrow-circle-right"></i></a>
-        </div>
-    </div>
-    <!-- ./col -->
-    <div class="col-lg-3 col-6">
-        <!-- small box -->
-        <div class="small-box">
-            <div class="inner">
-                <h3><br></h3>
-                <p>Configuración</p>
-            </div>
-            <div class="icon">
-                <i class="ion fas fa-cogs text-gray"></i>
-            </div>
-            <a href="<?php echo base_url; ?>admin/datos" class="small-box-footer bg-blue">Ver <i class="fas fa-arrow-circle-right"></i></a>
-        </div>
-    </div>
-    <!-- ./col -->
-    <div class="col-lg-3 col-6">
-        <!-- small box -->
-        <div class="small-box">
-            <div class="inner">
-                <h3><br></h3>
-
-                <p>Nueva Venta</p>
-            </div>
-            <div class="icon">
-                <i class="ion fas fa-store-alt text-gray"></i>
-            </div>
-            <a href="<?php echo base_url; ?>compras/ventas" class="small-box-footer bg-fuchsia">Ver <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="<?php echo base_url; ?>compras/historial_ventas" class="small-box-footer bg-success">Ver <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -114,9 +102,24 @@
             <div class="icon">
                 <i class="ion fas fas fa-shipping-fast text-gray"></i>
             </div>
-            <a href="<?php echo base_url; ?>compras/historial" class="small-box-footer bg-purple">Ver <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="<?php echo base_url; ?>compras/historial" class="small-box-footer bg-success">Ver <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-6">
+        <!-- small box -->
+        <div class="small-box">
+            <div class="inner">
+                <h3><br></h3>
+                <p>Configuración</p>
+            </div>
+            <div class="icon">
+                <i class="ion fas fa-cogs text-gray"></i>
+            </div>
+            <a href="<?php echo base_url; ?>admin/datos" class="small-box-footer bg-red">Ver <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <!-- ./col -->
 
 </div>
 <!-- /.row -->

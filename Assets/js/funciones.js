@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 title: 'Archivo',
                 filename: 'Export_File',
 
-                //Aquí es donde generas el botón personalizado
+                //botón personalizado
                 text: '<span class="badge badge-success"><i class="fas fa-file-excel"></i></span>'
             },
             //Botón para PDF
@@ -680,7 +680,7 @@ function registrarCli(e) {
         alertas('Todo los campos son requeridos', 'warning');
         return false;
     }else if (ruc.value.length < 9) {
-        alertas('Ingrese un dui valido', 'warning');
+        alertas('Ingrese un documento valido', 'warning');
         return false;
     } else {
         const url = base_url + 'clientes/registrar';
@@ -790,7 +790,7 @@ function registrarPr(e) {
         alertas('Todo los campos son requeridos', 'warning');
         return false;
     }else if(ruc.value.length < 9){
-        alertas('Ingrese un dui valido', 'warning');
+        alertas('Ingrese un documento valido', 'warning');
         return false;
     } else if (telefono.value.length < 8) {
         alertas('Ingrese un teléfono valido', 'warning');

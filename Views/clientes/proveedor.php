@@ -38,8 +38,8 @@
                                 <input id="nombre" class="form-control" type="text" name="nombre" placeholder="Nombre">
                             </div>
                             <div class="form-group">
-                                <label for="telefono">Teléfono</label>
-                                <input id="telefono" class="form-control" type="text" name="telefono" placeholder="Teléfono" onkeypress="return soloNumeros(event);" oninput="longitud(event, 8)">
+                                <label for="telefono">Celular</label>
+                                <input id="telefono" class="form-control" type="text" name="telefono" placeholder="Teléfono" onkeypress="return soloNumeros(event);" oninput="longitud(event, 10)">
                             </div>
                             <div class="form-group">
                                 <label for="direccion">Contacto</label>

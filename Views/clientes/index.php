@@ -31,7 +31,7 @@
                 <div class="form-group">
                                 <input type="hidden" id="id" name="id">
                                 <label for="ruc">CC/Nit</label>
-                                <input id="ruc" class="form-control" type="text" name="ruc" placeholder="Identidad del cliente" onkeypress="return soloNumeros(event);" oninput="longitud(event, 9)">
+                                <input id="ruc" class="form-control" type="text" name="ruc" placeholder="Identidad del cliente" onkeypress="return soloNumeros(event);" oninput="longitud(event, 10)">
                             </div>
                     <div class="form-group">
                         <input type="hidden" id="id" name="id">
@@ -39,8 +39,8 @@
                         <input id="nombre" class="form-control" type="text" name="nombre" placeholder="Nombre del cliente">
                     </div>
                     <div class="form-group">
-                        <label for="telefono">Teléfono</label>
-                        <input id="telefono" class="form-control" type="text" name="telefono" placeholder="Teléfono" onkeypress="return soloNumeros(event);" oninput="longitud(event, 8)">
+                        <label for="telefono">Teléfono/Celular</label>
+                        <input id="telefono" class="form-control" type="text" name="telefono" placeholder="Teléfono" onkeypress="return soloNumeros(event);" oninput="longitud(event, 10)">
                     </div>
                     <div class="form-group">
                         <label for="direccion">Dirección</label>
